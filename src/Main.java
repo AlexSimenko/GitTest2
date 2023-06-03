@@ -5,5 +5,6 @@ public class Main {
         Bird bird = new Bird("Sparrow","Small bird");
         bird.Fly(true);
         System.out.println("this bird is "+bird.getName());
+        System.out.println("classification "+ bird.getClassification());
     }
 }
