@@ -1,5 +1,7 @@
-public interface Flying {
-     static String Fly() {
+package InterF;
 
-    }
+public interface Flying {
+    void Fly();
+
+
 }
