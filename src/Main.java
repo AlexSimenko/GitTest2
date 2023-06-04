@@ -12,6 +12,8 @@ public class Main {
         bird1.Fly(true);
         System.out.println("this bird is "+bird1.getName());
 
-
+        Bird bird2 = new Bird("Sparrow","Small bird");
+        bird2.Fly(true);
+        System.out.println("this bird is "+bird2.getName());
     }
 }
